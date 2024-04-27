@@ -1,64 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wichapol Wongvises</title>
+    <title>My Profile</title>
     <link rel="stylesheet" href="styles.css">
-
-    <style>
-        body {
-	        background-color: #AEBDCA;
-	    }
-
-       hr {
-	        background-color:white;
-	    }
-    </style>
 </head>
 
 <body style="background-color: #babaea;">
-    <img src="profile.jpg" style="width: 20%; height: auto;" alt="" />
 
-    <hr style="border-style: dashed double none; height: 20px;">
-
-    <h1 style="background-color: beige;">Wichapol Wongvises</h1>
-    <a href="https://www.cpram.co.th/" target="_blank">Go to CPRAM</a>
-    <br>
-    <a href="contact.html" target="_blank">Contact Me</a>
-
-    <hr style="border-style: dashed double none; height: 20px;">
-
-    <h3>Work Experience</h3>
-
-    <!-- <ul>
-        <li>2019 - Present: Wep Developer at CPRAM</li>
-        <li>2018 - 2019: Trainee at SPR</li>
-        <li>2017 - 2018: Trainee at XXX</li>
-    </ul> -->
-
-    <!-- list to table -->
-    <table style="background-color: beige;">
-        <thead>
+    <div class="profile-detail">
+        <table class="table-borderless">
             <tr>
-                <th>Year</th>
-                <th>Work Detail</th>
+                <td>
+                    <img class="profile-img" src="profile.gif" alt="" />
+                </td>
+                <td>
+                    <h1>Wichapol Wongvises</h1>
+                    <p>Backend Developer at CPRAM</p>
+                    <hr>
+                    <a href="https://www.cpram.co.th/" target="_blank">Go to CPRAM</a>
+                    ·
+                    <a href="contact.html" target="_blank">Contact Me</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2019 - Present</td>
-                <td>Wep Developer at CPRAM</td>
-            </tr>
-            <tr>
-                <td>2018 - 2019</td>
-                <td>Trainee at SPR</td>
-            </tr>
-            <tr>
-                <td>2017 - 2018</td>
-                <td>Trainee at XXX</td>
-            </tr>
-        </tbody>       
-    </table>
+        </table>
+
+        <hr class="dotted">
+
+        <h3>Work Experience</h3>
+
+        <!-- list to table -->
+        <table class="table-border">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Work Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2019 - Present</td>
+                    <td>Backend Developer at CPRAM</td>
+                </tr>
+                <tr>
+                    <td>2018 - 2019</td>
+                    <td>Trainee at SPR</td>
+                </tr>
+                <tr>
+                    <td>2017 - 2018</td>
+                    <td>Trainee at XXX</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 </html>
